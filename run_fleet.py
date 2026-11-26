@@ -9,7 +9,7 @@ from agents.gatekeeper import GatekeeperAgent
 from agents.hypothesis import HypothesisAgent
 from agents.llm_proposer import LLMHypothesisAgent, LLMSymbolicProposal
 from agents.verifier import VerifierAgent
-
+from node_config import load_node_config
 
 def main():
     manifest_path = pathlib.Path(__file__).resolve().parent / "config" / "fleet.yaml"

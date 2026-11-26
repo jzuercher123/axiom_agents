@@ -5,7 +5,7 @@ import zmq
 from agents.archivist import ArchivistAgent
 from agents.extractor import PhysicsExtractorAgent
 from agents.gatekeeper import GatekeeperAgent
-
+from node_config import load_node_config
 
 def main():
     root = pathlib.Path(__file__).resolve().parent.parent
