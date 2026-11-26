@@ -1,0 +1,8 @@
+pyzmq
+pyyaml
+numpy
+scipy
+sympy
+requests
+pydantic
+openai
